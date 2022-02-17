@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProductApp">
         <activity
+            android:name=".searchActivity"
+            android:exported="false" />
+        <activity
             android:name=".Addfood"
             android:exported="false" />
         <activity

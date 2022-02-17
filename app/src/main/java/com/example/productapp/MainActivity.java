@@ -26,12 +26,13 @@ dbHelper dbHelper;
                 startActivity(u);
             }
         });
-       // b3.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-        //    public void onClick(View v) {
+       b2.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent u=new Intent(getApplicationContext(),searchActivity.class);
+               startActivity(u);
 
-
-        //    }
-       // });
+           }
+       });
     }
 }
